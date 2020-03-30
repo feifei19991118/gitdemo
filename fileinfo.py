@@ -13,3 +13,5 @@ for i in range(7):
 for i in range(len(d)):
     if d[i]<=8:
         d[i]==0
+if d.count(0)==7:
+    print(0)
