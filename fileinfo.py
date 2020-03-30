@@ -10,3 +10,6 @@ for i in range(7):
     a,b=map(int,input().split())
     c=a+b
     d.append(c)
+for i in range(len(d)):
+    if d[i]<=8:
+        d[i]==0
