@@ -15,3 +15,7 @@ for i in range(len(d)):
         d[i]==0
 if d.count(0)==7:
     print(0)
+else:
+    e=max(d)
+    f=d.index(e)
+    print(f+1)
